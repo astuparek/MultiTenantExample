@@ -1,0 +1,13 @@
+@MultiTenantSales.Api_HostAddress = https://localhost:7001
+
+@Id = 1
+
+GET {{MultiTenantSales.Api_HostAddress}}/api/companies/{{Id}}
+Accept: application/json
+X-TenantId: 1
+
+###
+
+GET {{MultiTenantSales.Api_HostAddress}}/api/sales
+Accept: application/jsonn
+X-TenantId: 1

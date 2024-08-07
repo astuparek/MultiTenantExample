@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35201.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3831A67B-7DCD-455F-9ACE-DA016E75C2EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{112F6229-7055-475B-B717-A2F029B5B192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantSales.Api", "src\MultiTenantSales.Api\MultiTenantSales.Api.csproj", "{CDF80C80-561F-48A6-811F-82FA5AC74FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDF80C80-561F-48A6-811F-82FA5AC74FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF80C80-561F-48A6-811F-82FA5AC74FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF80C80-561F-48A6-811F-82FA5AC74FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF80C80-561F-48A6-811F-82FA5AC74FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDF80C80-561F-48A6-811F-82FA5AC74FCE} = {3831A67B-7DCD-455F-9ACE-DA016E75C2EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {366E4EA2-454D-44E3-8C82-F9C963325E33}
+	EndGlobalSection
+EndGlobal
